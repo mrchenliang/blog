@@ -1,4 +1,4 @@
-== BLOG WEBSITE
+BLOG WEBSITE
 
 Description
 Personal blog web app built using Rails
