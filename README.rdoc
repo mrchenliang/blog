@@ -1,28 +1,41 @@
-== README
+== BLOG WEBSITE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description
+Personal blog web app built using Rails
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+### Clone the repository
+```shell
+git clone git@github.com:mrchenliang/blog.git
+cd blog
+```
 
-* System dependencies
+### Check your Ruby version
 
-* Configuration
+```shell
+ruby -v
+```
 
-* Database creation
+The output should start with something like `ruby 2.5.6`
 
-* Database initialization
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
 
-* How to run the test suite
+```shell
+rbenv install 2.4.6
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install dependencies
 
-* Deployment instructions
+Using [Bundler](https://github.com/bundler/bundler):
+```shell
+bundle install
+```
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Final Product
+Index Page
+!["Screenshot of Index Page"](https://github.com/mrchenliang/blog/blob/master/docs/Index.png)
+Blog Page
+!["Screenshot of Blog Page"](https://github.com/mrchenliang/blog/blob/master/docs/Blog.png)
+Create Blog Page
+!["Screenshot of Create BlogPage"](https://github.com/mrchenliang/blog/blob/master/docs/Create.png)
